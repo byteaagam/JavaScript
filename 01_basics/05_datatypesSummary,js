@@ -32,3 +32,27 @@
   }
 
   console.log(typeof scoreValue);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive)-----> data ki copy milna , Heap (Non-Primitive)---> reference se data access
+
+let ytname= "aagamDotCom"
+let anotherName= "AagamCode"
+anotherName= "Fortyy"
+console.log(ytname)
+console.log(anotherName)
+
+
+let userOne={
+  email: "user@gmail.com",
+  upi: "user@ubl"
+}
+
+userTwo= userOne
+userTwo.email= "aagam@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
